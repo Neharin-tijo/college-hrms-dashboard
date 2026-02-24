@@ -41,61 +41,66 @@ This project was developed as part of a **Frontend Developer Assessment**.
 ---
 
 ## 📁 **Folder Structure**
+
+```
 college-hrms-dashboard/
 ├── public/
-│ └── index.html
+│   └── index.html
 ├── src/
-│ ├── components/
-│ │ ├── layout/
-│ │ │ ├── Layout.jsx # Main layout wrapper
-│ │ │ ├── Sidebar.jsx # Navigation sidebar (collapsible)
-│ │ │ └── Header.jsx # Page header with icons
-│ │ ├── dashboard/
-│ │ │ ├── StatsCard.jsx # Reusable statistics card
-│ │ │ └── EmployeeTable.jsx # Employee table with search/pagination
-│ │ └── common/
-│ │ └── Pagination.jsx # Reusable pagination component
-│ ├── data/
-│ │ └── mockData.js # Hardcoded employee data (20 records)
-│ ├── styles/
-│ │ └── dashboard.css # All custom styles
-│ ├── App.js # Main app component
-│ └── index.js # Entry point
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Layout.jsx
+│   │   │   ├── Sidebar.jsx
+│   │   │   └── Header.jsx
+│   │   ├── dashboard/
+│   │   │   ├── StatsCard.jsx
+│   │   │   └── EmployeeTable.jsx
+│   │   └── common/
+│   │       └── Pagination.jsx
+│   ├── data/
+│   │   └── mockData.js
+│   ├── styles/
+│   │   └── dashboard.css
+│   ├── App.js
+│   └── index.js
 ├── screenshots/
-│ ├── desktop.png # Desktop view screenshot
-│ ├── tablet.png # Tablet view screenshot
-│ └── mobile.png # Mobile view screenshot
+│   ├── desktop.png
+│   ├── tablet.png
+│   └── mobile.png
 ├── package.json
 └── README.md
+```
 
 text
 
 ---
 
 ## 🏗️ **Component Architecture**
+
+```
 App.js
 │
 ├── Layout
-│ ├── Sidebar
-│ │ ├── Dashboard (nav item)
-│ │ ├── Employees (nav item)
-│ │ ├── Attendance (nav item)
-│ │ ├── Payroll (nav item)
-│ │ └── Settings (nav item)
-│ ├── Header
-│ │ ├── Page Title
-│ │ ├── Notification Icon
-│ │ └── Profile Icon
-│ └── Content
-│ ├── StatsSection
-│ │ ├── StatsCard (Total Employees)
-│ │ ├── StatsCard (Present Today)
-│ │ └── StatsCard (On Leave)
-│ └── EmployeeTable
-│ ├── Search Box
-│ ├── Table
-│ └── Pagination
-
+│   ├── Sidebar
+│   │   ├── Dashboard (nav item)
+│   │   ├── Employees (nav item)
+│   │   ├── Attendance (nav item)
+│   │   ├── Payroll (nav item)
+│   │   └── Settings (nav item)
+│   ├── Header
+│   │   ├── Page Title
+│   │   ├── Notification Icon
+│   │   └── Profile Icon
+│   └── Content
+│       ├── StatsSection
+│       │   ├── StatsCard (Total Employees)
+│       │   ├── StatsCard (Present Today)
+│       │   └── StatsCard (On Leave)
+│       └── EmployeeTable
+│           ├── Search Box
+│           ├── Table
+│           └── Pagination
+```
 text
 
 ### **Component Descriptions**
@@ -156,8 +161,10 @@ text
   presentToday: 134,
   onLeave: 22
 }
-Employee Data (mockData.js)
-javascript
+```
+
+### **Employee Data** (mockData.js)
+```javascript
 [
   {
     id: 'EMP001',
@@ -168,6 +175,8 @@ javascript
   },
   // ... 19 more records
 ]
+```
+
 🚀 Setup Instructions
 📋 Prerequisites
 Before you begin, ensure you have the following installed:
@@ -357,14 +366,20 @@ git clone https://github.com/yourusername/college-hrms-dashboard.git
 cd college-hrms-dashboard
 npm install
 npm start
-📸 Screenshots
-Desktop	Tablet	Mobile
-https://screenshots/desktop.png	https://screenshots/tablet.png	https://screenshots/mobile.png
-👨‍💻 Author
-Your Name
-📧 your.email@example.com
-🐙 GitHub
-💼 LinkedIn
+
+## 📸 **Screenshots**
+
+| Desktop | Tablet | Mobile |
+|---------|--------|--------|
+| ![Desktop](screenshots/desktop.png) | ![Tablet](screenshots/tablet.png) | ![Mobile](screenshots/mobile.png) |
+
+## 👨‍💻 **Author**
+
+**Your Name**
+
+- 📧 **Email:** your.email@example.com
+- 🐙 **GitHub:** [@yourusername](https://github.com/yourusername)
+- 💼 **LinkedIn:** [Your Name](https://linkedin.com/in/yourprofile)
 
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
