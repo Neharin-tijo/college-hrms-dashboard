@@ -269,7 +269,7 @@ vercel
 npm install --save-dev gh-pages
 
 ### Add to package.json
-#### "homepage": "https://yourusername.github.io/college-hrms-dashboard"
+#### "homepage": "https://github.com/Neharin-tijo/college-hrms-dashboard"
 
 #### Deploy
 npm run deploy
