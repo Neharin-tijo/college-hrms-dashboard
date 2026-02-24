@@ -205,14 +205,6 @@ npm install
 ### OR using yarn
 yarn install
 
-This will install:
-
-react & react-dom (v18.2.0)
-
-react-scripts (v5.0.1)
-
-lucide-react (v0.263.1) - For icons
-
 ## Step 3: Start the Development Server
 
 ### Using npm
@@ -221,18 +213,16 @@ npm start
 ### OR using yarn
 yarn start
 
-This will:
-
+```
 ✅ Start the development server at http://localhost:3000
 
-✅ Automatically open the app in your default browser
-
-✅ Enable hot reloading
+```
 
 ## Step 4: View the Application
 Open your browser and navigate to:
-
+```
 http://localhost:3000
+```
 
 ## 🏗️ Build for Production
 To create an optimized production build:
@@ -243,61 +233,55 @@ npm run build
 ### OR using yarn
 yarn build
 
-This creates a build folder with:
-
-✅ Minified and optimized code
-
-✅ Hashed file names for caching
-
-✅ Ready for deployment
-
 ## 🌐 Deployment Options
-Option A: Deploy to Netlify (Recommended - Free)
+### Option A: Deploy to Netlify (Recommended - Free)
 
-### Build the project
+#### Build the project
 npm run build
 
-Deploy using Netlify CLI
+### Deploy using Netlify CLI
 
-### Install Netlify CLI
+#### Install Netlify CLI
 npm install -g netlify-cli
 
-### Deploy
+#### Deploy
 netlify deploy
-OR
 
-Deploy via Netlify Drag & Drop
+### OR Deploy via Netlify Drag & Drop
 
-Go to app.netlify.com
+1. Go to app.netlify.com
 
-Drag and drop the build folder
+2. Drag and drop the build folder
 
-Get your live URL instantly
+3. Get your live URL instantly
 
-Option B: Deploy to Vercel
+### Option B: Deploy to Vercel
 
-### Install Vercel CLI
+#### Install Vercel CLI
 npm install -g vercel
 
-### Deploy
+#### Deploy
 vercel
-Option C: Deploy to GitHub Pages
-bash
-### Install gh-pages
+
+### Option C: Deploy to GitHub Pages
+
+#### Install gh-pages
 npm install --save-dev gh-pages
 
 ### Add to package.json
-### "homepage": "https://yourusername.github.io/college-hrms-dashboard"
+#### "homepage": "https://yourusername.github.io/college-hrms-dashboard"
 
-### Deploy
+#### Deploy
 npm run deploy
-🛠️ Available Scripts
-Command	Description
+
+## 🛠️ Available Scripts
+ Command	Description
 npm start	Starts development server at localhost:3000
 npm run build	Creates production build in build folder
 npm test	Runs test suite
 npm run eject	Ejects from Create React App (one-way operation)
-📦 Dependencies
+
+## 📦 Dependencies
 ```
 json
 {
@@ -310,24 +294,24 @@ json
 }
 ```
 
-🔧 Troubleshooting
-Common Issues and Solutions
+## 🔧 Troubleshooting
+### Common Issues and Solutions
 Issue	Solution
 Port 3000 already in use	Run npm start -- --port 3001
 Module not found errors	Run npm install again
 Styles not loading	Clear browser cache
 Node version issues	Use nvm use 18 if using nvm
-Environment Variables
+
+## Environment Variables
 Create a .env file in the root directory:
 
-env
 ### Optional: Change port
 PORT=3000
 
 ### Optional: Disable browser opening
 BROWSER=none
 
-✅ Verification Checklist
+## ✅ Verification Checklist
 After setup, verify:
 
 App runs at http://localhost:3000
@@ -346,7 +330,7 @@ Mobile responsive design works
 
 No console errors (F12 → Console tab)
 
-📂 Project Structure After Setup
+## 📂 Project Structure After Setup
 ```
 college-hrms-dashboard/
 ├── node_modules/          # Dependencies (auto-generated)
@@ -358,19 +342,21 @@ college-hrms-dashboard/
 └── .gitignore             # Git ignore rules
 ```
 
-🚨 Important Notes
+## 🚨 Important Notes
 ⚠️ This project uses mock data - no backend required
 ⚠️ Sidebar items are UI only (as per assessment requirements)
 ⚠️ For mobile testing, use Chrome DevTools device toolbar
 ⚠️ The app is fully responsive - test on all screen sizes
 
-💡 Quick Start Commands (Summary)
+## 💡 Quick Start Commands (Summary)
 bash
 ### One-liner to get started
+```
 git clone https://github.com/yourusername/college-hrms-dashboard.git
 cd college-hrms-dashboard
 npm install
 npm start
+```
 
 ## 📸 **Screenshots**
 
@@ -382,21 +368,21 @@ npm start
 
 **Your Name**
 
-- 📧 **Email:** your.email@example.com
-- 🐙 **GitHub:** [@yourusername](https://github.com/yourusername)
-- 💼 **LinkedIn:** [Your Name](https://linkedin.com/in/yourprofile)
+- 📧 **Email:** neharintijo@gmail.com
+- 🐙 **GitHub:** [@yourusername](https://github.com/Neharin-tijo)
+- 💼 **LinkedIn:** [Your Name](https://www.linkedin.com/in/neharintijo/)
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🙏 Acknowledgments
+## 🙏 Acknowledgments
 St. Joseph's College of Engineering and Technology, Palai for the opportunity
 
 React community for excellent documentation
 
 Lucide React for beautiful icons
 
-📞 Need Help?
+## 📞 Need Help?
 If you encounter any issues:
 
 Check the Troubleshooting section above
@@ -405,12 +391,4 @@ Open an issue on GitHub
 
 Contact the developer via email
 
-Made with ❤️ for St. Joseph's College of Engineering and Technology, Palai 
-
-
-
-# Using npm
-npm install
-
-# OR using yarn
-yarn install
+### Made with ❤️ for St. Joseph's College of Engineering and Technology, Palai 
