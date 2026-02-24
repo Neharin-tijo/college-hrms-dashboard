@@ -174,18 +174,20 @@ App.js
 ]
 ```
 
-🚀 Setup Instructions
-📋 Prerequisites
+## 🚀 Setup Instructions
+
+### 📋 Prerequisites
 Before you begin, ensure you have the following installed:
 
 Requirement	Version	Check Command
 Node.js	v14.0.0 or higher	node --version
 npm	v6.0.0 or higher	npm --version
 Git	Any recent version	git --version
-📥 Installation Steps
-Step 1: Clone the Repository
 
-bash
+## 📥 Installation Steps
+
+## Step 1: Clone the Repository
+
 ### Clone using HTTPS
 git clone https://github.com/yourusername/college-hrms-dashboard.git
 
@@ -194,14 +196,15 @@ git clone git@github.com:yourusername/college-hrms-dashboard.git
 
 ### Navigate into the project folder
 cd college-hrms-dashboard
-Step 2: Install Dependencies
 
-bash
+## Step 2: Install Dependencies
+
 ### Using npm
 npm install
 
 ### OR using yarn
 yarn install
+
 This will install:
 
 react & react-dom (v18.2.0)
@@ -210,14 +213,14 @@ react-scripts (v5.0.1)
 
 lucide-react (v0.263.1) - For icons
 
-Step 3: Start the Development Server
+## Step 3: Start the Development Server
 
-bash
 ### Using npm
 npm start
 
 ### OR using yarn
 yarn start
+
 This will:
 
 ✅ Start the development server at http://localhost:3000
@@ -226,19 +229,20 @@ This will:
 
 ✅ Enable hot reloading
 
-Step 4: View the Application
+## Step 4: View the Application
 Open your browser and navigate to:
 
 http://localhost:3000
-🏗️ Build for Production
+
+## 🏗️ Build for Production
 To create an optimized production build:
 
-bash
 ### Using npm
 npm run build
 
 ### OR using yarn
 yarn build
+
 This creates a build folder with:
 
 ✅ Minified and optimized code
@@ -247,15 +251,14 @@ This creates a build folder with:
 
 ✅ Ready for deployment
 
-🌐 Deployment Options
+## 🌐 Deployment Options
 Option A: Deploy to Netlify (Recommended - Free)
-Build the project
 
-bash
+### Build the project
 npm run build
+
 Deploy using Netlify CLI
 
-bash
 ### Install Netlify CLI
 npm install -g netlify-cli
 
@@ -272,7 +275,7 @@ Drag and drop the build folder
 Get your live URL instantly
 
 Option B: Deploy to Vercel
-bash
+
 ### Install Vercel CLI
 npm install -g vercel
 
