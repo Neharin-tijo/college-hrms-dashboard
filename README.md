@@ -183,31 +183,34 @@ Before you begin, ensure you have the following installed:
 ## 📥 Installation Steps
 
 ## Step 1: Clone the Repository
-
-### Clone using HTTPS
+```
+# Clone using HTTPS
 git clone https://github.com/yourusername/college-hrms-dashboard.git
 
-### Or clone using SSH
+# Or clone using SSH
 git clone git@github.com:yourusername/college-hrms-dashboard.git
 
-### Navigate into the project folder
+# Navigate into the project folder
 cd college-hrms-dashboard
+```
 
 ## Step 2: Install Dependencies
-
-### Using npm
+```
+# Using npm
 npm install
 
-### OR using yarn
+# OR using yarn
 yarn install
+```
 
 ## Step 3: Start the Development Server
-
-### Using npm
+```
+# Using npm
 npm start
 
-### OR using yarn
+# OR using yarn
 yarn start
+```
 
 - ✅ Start the development server at http://localhost:3000
 
@@ -230,29 +233,34 @@ yarn build
 ## 🌐 Deployment Options
 ### Option A: Deploy to Netlify (Recommended - Free)
 
-#### Build the project
+1. Build the project
+```
 npm run build
+```
 
-### Deploy using Netlify CLI
-
-#### Install Netlify CLI
+2. Deploy using Netlify CLI
+```
+# Install Netlify CLI
 npm install -g netlify-cli
 
-#### Deploy
+# Deploy
 netlify deploy
+```
 
-### OR Deploy via Netlify Drag & Drop
+### OR 
+3. Deploy via Netlify Drag & Drop
 - Go to app.netlify.com
 - Drag and drop the build folder
 - Get your live URL instantly
 
 ### Option B: Deploy to Vercel
-
-#### Install Vercel CLI
+```
+# Install Vercel CLI
 npm install -g vercel
 
-#### Deploy
+# Deploy
 vercel
+```
 
 ### Option C: Deploy to GitHub Pages
 ```
@@ -289,39 +297,34 @@ json
 
 ## 🔧 Troubleshooting
 ### Common Issues and Solutions
-Issue	Solution
-Port 3000 already in use	Run npm start -- --port 3001
-Module not found errors	Run npm install again
-Styles not loading	Clear browser cache
-Node version issues	Use nvm use 18 if using nvm
+| Issue |	Solution |
+|-------|----------|
+| Port 3000 already in use |	Run npm start -- --port 3001 |
+| Module not found errors |	Run npm install again |
+| Styles not loading |	Clear browser cache |
+| Node version issues| 	Use nvm use 18 if using nvm |
 
 ## Environment Variables
 Create a .env file in the root directory:
-
-### Optional: Change port
+```
+# Optional: Change port
 PORT=3000
 
-### Optional: Disable browser opening
+# Optional: Disable browser opening
 BROWSER=none
+```
 
 ## ✅ Verification Checklist
 After setup, verify:
 
-App runs at http://localhost:3000
-
-Sidebar navigation is visible
-
-Statistics cards show numbers
-
-Employee table displays data
-
-Search functionality works
-
-Pagination works
-
-Mobile responsive design works
-
-No console errors (F12 → Console tab)
+- App runs at http://localhost:3000
+- Sidebar navigation is visible
+- Statistics cards show numbers
+- Employee table displays data
+- Search functionality works
+- Pagination works
+- Mobile responsive design works
+- No console errors (F12 → Console tab)
 
 ## 📂 Project Structure After Setup
 ```
@@ -336,15 +339,14 @@ college-hrms-dashboard/
 ```
 
 ## 🚨 Important Notes
-⚠️ This project uses mock data - no backend required
-⚠️ Sidebar items are UI only (as per assessment requirements)
-⚠️ For mobile testing, use Chrome DevTools device toolbar
-⚠️ The app is fully responsive - test on all screen sizes
+- ⚠️ This project uses mock data - no backend required
+- ⚠️ Sidebar items are UI only (as per assessment requirements)
+- ⚠️ For mobile testing, use Chrome DevTools device toolbar
+- ⚠️ The app is fully responsive - test on all screen sizes
 
 ## 💡 Quick Start Commands (Summary)
-bash
-### One-liner to get started
 ```
+# One-liner to get started
 git clone https://github.com/yourusername/college-hrms-dashboard.git
 cd college-hrms-dashboard
 npm install
@@ -359,7 +361,7 @@ npm start
 
 ## 👨‍💻 **Author**
 
-**Your Name**
+**Neharin Tijo**
 
 - 📧 **Email:** neharintijo@gmail.com
 - 🐙 **GitHub:** [@Neharin-tijo](https://github.com/Neharin-tijo)
@@ -369,19 +371,17 @@ npm start
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
-St. Joseph's College of Engineering and Technology, Palai for the opportunity
+- St. Joseph's College of Engineering and Technology, Palai for the opportunity
 
-React community for excellent documentation
+- React community for excellent documentation
 
-Lucide React for beautiful icons
+- Lucide React for beautiful icons
 
 ## 📞 Need Help?
 If you encounter any issues:
 
-Check the Troubleshooting section above
-
-Open an issue on GitHub
-
-Contact the developer via email
+1. Check the Troubleshooting section above
+2. Open an issue on GitHub
+3. Contact the developer via email
 
 ### Made with ❤️ for St. Joseph's College of Engineering and Technology, Palai 
