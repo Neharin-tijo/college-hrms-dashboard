@@ -212,16 +212,20 @@ yarn start
 - ✅ Start the development server at http://localhost:3000
 
 ## Step 4: View the Application
-Open your browser and navigate to: http://localhost:3000
+Open your browser and navigate to: 
+```
+http://localhost:3000
+```
 
 ## 🏗️ Build for Production
 To create an optimized production build:
-
-### Using npm
+```
+# Using npm
 npm run build
 
-### OR using yarn
+# OR using yarn
 yarn build
+```
 
 ## 🌐 Deployment Options
 ### Option A: Deploy to Netlify (Recommended - Free)
@@ -251,22 +255,24 @@ npm install -g vercel
 vercel
 
 ### Option C: Deploy to GitHub Pages
-
-#### Install gh-pages
+```
+# Install gh-pages
 npm install --save-dev gh-pages
 
-### Add to package.json
-- "homepage": "https://github.com/Neharin-tijo/college-hrms-dashboard"
+# Add to package.json
+# "homepage": "https://github.com/Neharin-tijo/college-hrms-dashboard"
 
-#### Deploy
+# Deploy
 npm run deploy
+```
 
 ## 🛠️ Available Scripts
-Command	Description
-- npm start:	Starts development server at localhost:3000
-- npm run: build	Creates production build in build folder
-- npm test:	Runs test suite
-- npm run: eject	Ejects from Create React App (one-way operation)
+| Command |	Description|
+|---------|------------|
+| npm start |	Starts development server at localhost:3000
+| npm run build |	Creates production build in build folder |
+| npm test |	Runs test suite |
+| npm run eject |	Ejects from Create React App (one-way operation) |
 
 ## 📦 Dependencies
 ```
