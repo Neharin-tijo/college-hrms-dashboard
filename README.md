@@ -9,11 +9,6 @@ This project was developed as part of a **Frontend Developer Assessment**.
 
 ---
 
-## 🚀 **Live Demo**
-**Live URL:** [https://college-hrms-dashboard.netlify.app](https://college-hrms-dashboard.netlify.app)
-
----
-
 ## ✅ **Features Implemented**
 
 ### 📊 **Core Features**
