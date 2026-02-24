@@ -71,8 +71,6 @@ college-hrms-dashboard/
 └── README.md
 ```
 
-text
-
 ---
 
 ## 🏗️ **Component Architecture**
@@ -101,7 +99,6 @@ App.js
 │           ├── Table
 │           └── Pagination
 ```
-text
 
 ### **Component Descriptions**
 
@@ -189,21 +186,21 @@ Git	Any recent version	git --version
 Step 1: Clone the Repository
 
 bash
-# Clone using HTTPS
+### Clone using HTTPS
 git clone https://github.com/yourusername/college-hrms-dashboard.git
 
-# Or clone using SSH
+### Or clone using SSH
 git clone git@github.com:yourusername/college-hrms-dashboard.git
 
-# Navigate into the project folder
+### Navigate into the project folder
 cd college-hrms-dashboard
 Step 2: Install Dependencies
 
 bash
-# Using npm
+### Using npm
 npm install
 
-# OR using yarn
+### OR using yarn
 yarn install
 This will install:
 
@@ -216,10 +213,10 @@ lucide-react (v0.263.1) - For icons
 Step 3: Start the Development Server
 
 bash
-# Using npm
+### Using npm
 npm start
 
-# OR using yarn
+### OR using yarn
 yarn start
 This will:
 
@@ -232,16 +229,15 @@ This will:
 Step 4: View the Application
 Open your browser and navigate to:
 
-text
 http://localhost:3000
 🏗️ Build for Production
 To create an optimized production build:
 
 bash
-# Using npm
+### Using npm
 npm run build
 
-# OR using yarn
+### OR using yarn
 yarn build
 This creates a build folder with:
 
@@ -260,10 +256,10 @@ npm run build
 Deploy using Netlify CLI
 
 bash
-# Install Netlify CLI
+### Install Netlify CLI
 npm install -g netlify-cli
 
-# Deploy
+### Deploy
 netlify deploy
 OR
 
@@ -277,20 +273,20 @@ Get your live URL instantly
 
 Option B: Deploy to Vercel
 bash
-# Install Vercel CLI
+### Install Vercel CLI
 npm install -g vercel
 
-# Deploy
+### Deploy
 vercel
 Option C: Deploy to GitHub Pages
 bash
-# Install gh-pages
+### Install gh-pages
 npm install --save-dev gh-pages
 
-# Add to package.json
-# "homepage": "https://yourusername.github.io/college-hrms-dashboard"
+### Add to package.json
+### "homepage": "https://yourusername.github.io/college-hrms-dashboard"
 
-# Deploy
+### Deploy
 npm run deploy
 🛠️ Available Scripts
 Command	Description
@@ -299,6 +295,7 @@ npm run build	Creates production build in build folder
 npm test	Runs test suite
 npm run eject	Ejects from Create React App (one-way operation)
 📦 Dependencies
+```
 json
 {
   "dependencies": {
@@ -308,6 +305,8 @@ json
     "lucide-react": "^0.263.1"
   }
 }
+```
+
 🔧 Troubleshooting
 Common Issues and Solutions
 Issue	Solution
@@ -319,11 +318,12 @@ Environment Variables
 Create a .env file in the root directory:
 
 env
-# Optional: Change port
+### Optional: Change port
 PORT=3000
 
-# Optional: Disable browser opening
+### Optional: Disable browser opening
 BROWSER=none
+
 ✅ Verification Checklist
 After setup, verify:
 
@@ -344,7 +344,7 @@ Mobile responsive design works
 No console errors (F12 → Console tab)
 
 📂 Project Structure After Setup
-text
+```
 college-hrms-dashboard/
 ├── node_modules/          # Dependencies (auto-generated)
 ├── public/                # Public assets
@@ -353,6 +353,8 @@ college-hrms-dashboard/
 ├── package-lock.json      # Locked dependency versions
 ├── README.md              # This file
 └── .gitignore             # Git ignore rules
+```
+
 🚨 Important Notes
 ⚠️ This project uses mock data - no backend required
 ⚠️ Sidebar items are UI only (as per assessment requirements)
@@ -361,7 +363,7 @@ college-hrms-dashboard/
 
 💡 Quick Start Commands (Summary)
 bash
-# One-liner to get started
+### One-liner to get started
 git clone https://github.com/yourusername/college-hrms-dashboard.git
 cd college-hrms-dashboard
 npm install
