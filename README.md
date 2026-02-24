@@ -173,15 +173,12 @@ App.js
 
 ### 📋 Prerequisites
 Before you begin, ensure you have the following installed:
-```
-Requirement	Version	Check Command
 
-Node.js	v14.0.0 or higher	node --version
-
-npm	v6.0.0 or higher	npm --version
-
-Git	Any recent version	git --version
-```
+| Requirement | Version | Check Command |
+|-------------|---------|---------------|
+| **Node.js**  |	v14.0.0 or higher |	node --version |
+| **npm** |	v6.0.0 or higher |	npm --version|
+| **Git**	| Any recent version	| git --version |
 
 ## 📥 Installation Steps
 
@@ -212,16 +209,10 @@ npm start
 ### OR using yarn
 yarn start
 
-```
-✅ Start the development server at http://localhost:3000
-
-```
+- ✅ Start the development server at http://localhost:3000
 
 ## Step 4: View the Application
-Open your browser and navigate to:
-```
-http://localhost:3000
-```
+Open your browser and navigate to: http://localhost:3000
 
 ## 🏗️ Build for Production
 To create an optimized production build:
@@ -247,12 +238,9 @@ npm install -g netlify-cli
 netlify deploy
 
 ### OR Deploy via Netlify Drag & Drop
-
-1. Go to app.netlify.com
-
-2. Drag and drop the build folder
-
-3. Get your live URL instantly
+- Go to app.netlify.com
+- Drag and drop the build folder
+- Get your live URL instantly
 
 ### Option B: Deploy to Vercel
 
@@ -268,17 +256,17 @@ vercel
 npm install --save-dev gh-pages
 
 ### Add to package.json
-#### "homepage": "https://github.com/Neharin-tijo/college-hrms-dashboard"
+- "homepage": "https://github.com/Neharin-tijo/college-hrms-dashboard"
 
 #### Deploy
 npm run deploy
 
 ## 🛠️ Available Scripts
- Command	Description
-npm start	Starts development server at localhost:3000
-npm run build	Creates production build in build folder
-npm test	Runs test suite
-npm run eject	Ejects from Create React App (one-way operation)
+Command	Description
+- npm start:	Starts development server at localhost:3000
+- npm run: build	Creates production build in build folder
+- npm test:	Runs test suite
+- npm run: eject	Ejects from Create React App (one-way operation)
 
 ## 📦 Dependencies
 ```
