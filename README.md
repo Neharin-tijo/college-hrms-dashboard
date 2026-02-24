@@ -369,8 +369,8 @@ npm start
 **Your Name**
 
 - 📧 **Email:** neharintijo@gmail.com
-- 🐙 **GitHub:** [@yourusername](https://github.com/Neharin-tijo)
-- 💼 **LinkedIn:** [Your Name](https://www.linkedin.com/in/neharintijo/)
+- 🐙 **GitHub:** [@Neharin-tijo](https://github.com/Neharin-tijo)
+- 💼 **LinkedIn:** [Neharin Tijo](https://www.linkedin.com/in/neharintijo/)
 
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
