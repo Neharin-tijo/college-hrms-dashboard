@@ -406,3 +406,11 @@ Open an issue on GitHub
 Contact the developer via email
 
 Made with ❤️ for St. Joseph's College of Engineering and Technology, Palai 
+
+
+
+# Using npm
+npm install
+
+# OR using yarn
+yarn install
