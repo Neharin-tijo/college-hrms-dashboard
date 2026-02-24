@@ -43,31 +43,32 @@ This project was developed as part of a **Frontend Developer Assessment**.
 ## 📁 **Folder Structure**
 college-hrms-dashboard/
 ├── public/
-│   └── index.html
+│ └── index.html
 ├── src/
-│   ├── components/
-│   │   ├── layout/
-│   │   │   ├── Layout.jsx         # Main layout wrapper
-│   │   │   ├── Sidebar.jsx        # Navigation sidebar (collapsible)
-│   │   │   └── Header.jsx         # Page header with icons
-│   │   ├── dashboard/
-│   │   │   ├── StatsCard.jsx      # Reusable statistics card
-│   │   │   └── EmployeeTable.jsx  # Employee table with search/pagination
-│   │   └── common/
-│   │       └── Pagination.jsx     # Reusable pagination component
-│   ├── data/
-│   │   └── mockData.js            # Hardcoded employee data (20 records)
-│   ├── styles/
-│   │   └── dashboard.css          # All custom styles
-│   ├── App.js                      # Main app component
-│   └── index.js                    # Entry point
+│ ├── components/
+│ │ ├── layout/
+│ │ │ ├── Layout.jsx # Main layout wrapper
+│ │ │ ├── Sidebar.jsx # Navigation sidebar (collapsible)
+│ │ │ └── Header.jsx # Page header with icons
+│ │ ├── dashboard/
+│ │ │ ├── StatsCard.jsx # Reusable statistics card
+│ │ │ └── EmployeeTable.jsx # Employee table with search/pagination
+│ │ └── common/
+│ │ └── Pagination.jsx # Reusable pagination component
+│ ├── data/
+│ │ └── mockData.js # Hardcoded employee data (20 records)
+│ ├── styles/
+│ │ └── dashboard.css # All custom styles
+│ ├── App.js # Main app component
+│ └── index.js # Entry point
 ├── screenshots/
-│   ├── desktop.png                 # Desktop view screenshot
-│   ├── tablet.png                  # Tablet view screenshot
-│   └── mobile.png                  # Mobile view screenshot
+│ ├── desktop.png # Desktop view screenshot
+│ ├── tablet.png # Tablet view screenshot
+│ └── mobile.png # Mobile view screenshot
 ├── package.json
 └── README.md
 
+text
 
 ---
 
@@ -75,26 +76,27 @@ college-hrms-dashboard/
 App.js
 │
 ├── Layout
-│   ├── Sidebar
-│   │   ├── Dashboard (nav item)
-│   │   ├── Employees (nav item)
-│   │   ├── Attendance (nav item)
-│   │   ├── Payroll (nav item)
-│   │   └── Settings (nav item)
-│   ├── Header
-│   │   ├── Page Title
-│   │   ├── Notification Icon
-│   │   └── Profile Icon
-│   └── Content
-│       ├── StatsSection
-│       │   ├── StatsCard (Total Employees)
-│       │   ├── StatsCard (Present Today)
-│       │   └── StatsCard (On Leave)
-│       └── EmployeeTable
-│           ├── Search Box
-│           ├── Table
-│           └── Pagination
+│ ├── Sidebar
+│ │ ├── Dashboard (nav item)
+│ │ ├── Employees (nav item)
+│ │ ├── Attendance (nav item)
+│ │ ├── Payroll (nav item)
+│ │ └── Settings (nav item)
+│ ├── Header
+│ │ ├── Page Title
+│ │ ├── Notification Icon
+│ │ └── Profile Icon
+│ └── Content
+│ ├── StatsSection
+│ │ ├── StatsCard (Total Employees)
+│ │ ├── StatsCard (Present Today)
+│ │ └── StatsCard (On Leave)
+│ └── EmployeeTable
+│ ├── Search Box
+│ ├── Table
+│ └── Pagination
 
+text
 
 ### **Component Descriptions**
 
@@ -154,8 +156,8 @@ App.js
   presentToday: 134,
   onLeave: 22
 }
-
-## **Employee Data (mockData.js)**
+Employee Data (mockData.js)
+javascript
 [
   {
     id: 'EMP001',
@@ -166,7 +168,6 @@ App.js
   },
   // ... 19 more records
 ]
-
 🚀 Setup Instructions
 📋 Prerequisites
 Before you begin, ensure you have the following installed:
@@ -177,7 +178,6 @@ npm	v6.0.0 or higher	npm --version
 Git	Any recent version	git --version
 📥 Installation Steps
 Step 1: Clone the Repository
-Open your terminal and run:
 
 bash
 # Clone using HTTPS
@@ -189,7 +189,6 @@ git clone git@github.com:yourusername/college-hrms-dashboard.git
 # Navigate into the project folder
 cd college-hrms-dashboard
 Step 2: Install Dependencies
-Install all required packages:
 
 bash
 # Using npm
@@ -206,6 +205,7 @@ react-scripts (v5.0.1)
 lucide-react (v0.263.1) - For icons
 
 Step 3: Start the Development Server
+
 bash
 # Using npm
 npm start
@@ -218,23 +218,13 @@ This will:
 
 ✅ Automatically open the app in your default browser
 
-✅ Enable hot reloading (page refreshes when you make changes)
+✅ Enable hot reloading
 
 Step 4: View the Application
 Open your browser and navigate to:
 
 text
 http://localhost:3000
-You should see the College HRMS Dashboard with:
-
-Sidebar navigation
-
-Statistics cards
-
-Employee table
-
-Search functionality
-
 🏗️ Build for Production
 To create an optimized production build:
 
@@ -297,7 +287,7 @@ npm run deploy
 Command	Description
 npm start	Starts development server at localhost:3000
 npm run build	Creates production build in build folder
-npm test	Runs test suite (if tests are added)
+npm test	Runs test suite
 npm run eject	Ejects from Create React App (one-way operation)
 📦 Dependencies
 json
@@ -356,11 +346,8 @@ college-hrms-dashboard/
 └── .gitignore             # Git ignore rules
 🚨 Important Notes
 ⚠️ This project uses mock data - no backend required
-
 ⚠️ Sidebar items are UI only (as per assessment requirements)
-
 ⚠️ For mobile testing, use Chrome DevTools device toolbar
-
 ⚠️ The app is fully responsive - test on all screen sizes
 
 💡 Quick Start Commands (Summary)
@@ -370,6 +357,25 @@ git clone https://github.com/yourusername/college-hrms-dashboard.git
 cd college-hrms-dashboard
 npm install
 npm start
+📸 Screenshots
+Desktop	Tablet	Mobile
+https://screenshots/desktop.png	https://screenshots/tablet.png	https://screenshots/mobile.png
+👨‍💻 Author
+Your Name
+📧 your.email@example.com
+🐙 GitHub
+💼 LinkedIn
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+🙏 Acknowledgments
+St. Joseph's College of Engineering and Technology, Palai for the opportunity
+
+React community for excellent documentation
+
+Lucide React for beautiful icons
+
 📞 Need Help?
 If you encounter any issues:
 
@@ -377,107 +383,6 @@ Check the Troubleshooting section above
 
 Open an issue on GitHub
 
-Contact the developer
+Contact the developer via email
 
-🎯 Next Steps After Setup
-Once the app is running:
-
-✅ Explore the dashboard features
-
-✅ Test responsive design
-
-✅ Try the search functionality
-
-✅ Check pagination
-
-✅ View on different devices
-
-✅ Take screenshots for submission
-
-📝 Complete README.md with Setup Instructions
-Here's the complete README.md file with the setup instructions included:
-
-markdown
-# 🏫 **College HRMS Dashboard** - St. Joseph's College of Engineering and Technology, Palai
-
-## 📋 Project Overview
-A responsive Human Resource Management System (HRMS) Dashboard UI for college management system, built with React.
-
-## ✨ Features
-- ✅ Sidebar Navigation (5 items)
-- ✅ Header with Profile & Notification icons
-- ✅ Statistics Cards (3 cards)
-- ✅ Employee Table with 5 fields
-- ✅ Pagination
-- ✅ Search Functionality (Bonus)
-- ✅ Fully Responsive
-
-## 🚀 Setup Instructions
-
-### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/college-hrms-dashboard.git
-   cd college-hrms-dashboard
-Install dependencies
-
-bash
-npm install
-Start the development server
-
-bash
-npm start
-Open the app
-Navigate to http://localhost:3000
-
-Build for Production
-bash
-npm run build
-📁 Folder Structure
-text
-src/
-├── components/
-│   ├── layout/
-│   │   ├── Layout.jsx
-│   │   ├── Sidebar.jsx
-│   │   └── Header.jsx
-│   ├── dashboard/
-│   │   ├── StatsCard.jsx
-│   │   └── EmployeeTable.jsx
-│   └── common/
-│       └── Pagination.jsx
-├── data/
-│   └── mockData.js
-├── styles/
-│   └── dashboard.css
-├── App.js
-└── index.js
-📸 Screenshots
-[Add screenshots here]
-
-👨‍💻 Author
-Your Name - your.email@example.com
-
-📄 License
-MIT
-
-text
-
----
-
-## ✅ **Quick Copy Instructions**
-
-1. **Copy the entire "Setup Instructions" section** above
-2. **Open your README.md** file
-3. **Paste it** where you want the setup instructions to appear
-4. **Replace placeholders:**
-   - `yourusername` → Your GitHub username
-   - `your.email@example.com` → Your email
-   - `Your Name` → Your name
-
-The setup instructions are now complete and ready for your assessment submission! 🚀
+Made with ❤️ for St. Joseph's College of Engineering and Technology, Palai 
