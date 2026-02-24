@@ -173,11 +173,15 @@ App.js
 
 ### 📋 Prerequisites
 Before you begin, ensure you have the following installed:
-
+```
 Requirement	Version	Check Command
+
 Node.js	v14.0.0 or higher	node --version
+
 npm	v6.0.0 or higher	npm --version
+
 Git	Any recent version	git --version
+```
 
 ## 📥 Installation Steps
 
